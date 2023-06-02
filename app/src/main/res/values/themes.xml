@@ -13,4 +13,32 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">#F0E9E9</item>
+    </style>
+
+    <style name="MenuItemStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">18sp</item> <!-- Adjust the text size as desired -->
+        <item name="android:padding">8dp</item> <!-- Adjust the padding as desired -->
+    </style>
+
+    <style name="AppTheme.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="android:textSize">30sp</item> <!-- Adjust the text size as desired -->
+        <item name="android:minWidth">200dp</item> <!-- Adjust the minimum width as desired -->
+    </style>
+
+    <style name="AppTheme.NavigationView.MenuText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">30sp</item> <!-- Adjust the text size as desired -->
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorPrimary">@color/white</item> <!-- Color for app title -->
+        <item name="android:textColorSecondary">@color/white</item> <!-- Color for menu icon -->
+    </style>
+
+
+
+
+
 </resources>
